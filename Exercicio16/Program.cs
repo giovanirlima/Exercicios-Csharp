@@ -17,7 +17,7 @@ DateTime dn = DateTime.Parse(Console.ReadLine());
 
 Console.WriteLine("Insira os dados do pedido");
 
-Console.Write("Statuso do pedido: ");
+Console.Write("Status do pedido: ");
 StatusDoPedido status = Enum.Parse<StatusDoPedido>(Console.ReadLine());
 
 Console.Write("Quantos items para este pedido: ");
